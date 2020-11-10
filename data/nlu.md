@@ -1,5 +1,6 @@
 ## intent:greet
 - chào
+- ahoy
 - xin chào
 - chào buổi sáng
 - chào buổi tối
