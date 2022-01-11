@@ -2467,7 +2467,6 @@ nlu:
     - cổ phiếu [thủy sản cửu long an giang](stockcode)
     - cổ phiếu s [ceo](stockcode)
     - cổ phiếu s [abc](stockcode)
-    - cổ phiếu[ công ty đầu tư và xây dựng bình dương](stockcode)
     - cổ phiếu [xây dựng bình dương ac c](stockcode)
     - cổ phiếu [ac c](stockcode)
     - [công ty cổ phần dược phẩm hà tây](stockcode)
@@ -2562,7 +2561,6 @@ nlu:
     - Giá [BHV](stockcode)
     - Giá [TCB](stockcode)
     - Giá [BhV](stockcode)
-    - giá [hbc]{"entity": "stockcode", "value": "HBC"}[hbc](stockcode)
     - giá chứng khoán [fpt](stockcode)?
 - intent: upd.news_latest
   examples: |
@@ -2916,6 +2914,7 @@ nlu:
     - Có được mở tài khoản ở nhiều công ty chứng khoán cùng lúc không
     - Một cá nhân hay tổ chức có được mở nhiều tài khoản chứng khoán ở các Cty CK khác nhau không
     - Nhà đầu tư cá nhân được phép sở hữu bao nhiêu tài khoản
+    - mở nhiều tài khoản chứng khoán
 - intent: def.account_deposit
   examples: |
     - Cách nộp tiền vào tài khoản chứng khoán
@@ -3147,6 +3146,7 @@ nlu:
   examples: |
     - Có cần broker không
     - Có cần môi giới không
+    - môi giới quan trọng không
 - intent: def.account_oct
   examples: |
     - Dịch vụ chuyển tiền trực tuyến OCT là gì
