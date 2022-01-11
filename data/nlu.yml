@@ -3683,9 +3683,6 @@ nlu:
     - lỗi đăng nhập app
     - tôi không thể đăng nhập vào tài khoản
     - ko vào được tài khoản
-- intent: upd.stock_lastMatchedPrice
-  examples: |
-    - giá thị cổ phiếu [fpt](stockcode)
 - synonym: BID
   examples: |
     - bid
