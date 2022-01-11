@@ -136,7 +136,6 @@ intents:
 - chat.user_not_want_talk
 - chat.user_sad
 - chat.user_sleepy
-- upd.stock_lastMatchedPrice
 - chat.user_sorry
 - chat.user_test
 - chat.user_thank_you
@@ -202,7 +201,6 @@ intents:
 - def.stock_investment_fund
 - chat.user_need_support
 - nlu_fallback
-- bot_challenge
 entities:
 - stockcode
 - place
