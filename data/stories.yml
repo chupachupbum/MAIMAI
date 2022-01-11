@@ -1,0 +1,703 @@
+version: "2.0"
+stories:
+- story: upd - View orderbook
+  steps:
+  - intent: upd.order_book
+  - action: action_trading_orderbook
+- story: upd - Get news
+  steps:
+  - intent: upd.news_latest
+  - action: action_get_news
+- story: def - Account open age
+  steps:
+  - intent: def.account_age
+  - action: utter_def.account_age
+- story: def - Stock (cổ phiếu)
+  steps:
+  - intent: def.stock_cp
+  - action: utter_def.stock_cp
+- story: def - Stock (chứng khoán)
+  steps:
+  - intent: def.stock_ck
+  - action: utter_def.stock_ck
+- story: def - Stock exchange
+  steps:
+  - intent: def.stock_exchange
+  - action: utter_def.stock_exchange
+- story: def - Trade volume
+  steps:
+  - intent: def.trade_volume
+  - action: utter_def.trade_volume
+- story: def - Stock capitalization
+  steps:
+  - intent: def.stock_capitalization
+  - action: utter_def.stock_capitalization
+- story: def - Stock exchanges list
+  steps:
+  - intent: def.stock_exchanges_list
+  - action: utter_def.stock_exchanges_list
+- story: 'def - Stock: bonds'
+  steps:
+  - intent: def.stock_bond
+  - action: utter_def.stock_bond
+- story: 'def - Misc: Transaction office'
+  steps:
+  - intent: def.misc_transaction_office
+  - action: utter_def.misc_transaction_office
+- story: 'def - Misc: Transaction offices list'
+  steps:
+  - intent: def.misc_transaction_offices_list
+  - action: utter_def.misc_transaction_offices_list
+- story: 'def - Trade: Minimum amount of money/stock to trade'
+  steps:
+  - intent: def.trade_minimum
+  - action: utter_def.trade_minimum
+- story: def - Account open fee
+  steps:
+  - intent: def.account_open_fee
+  - action: utter_def.account_open_fee
+- story: def - Account How to open
+  steps:
+  - intent: def.account_open_how
+  - action: utter_def.account_open_how
+- story: 'def - Trade: How to trade general'
+  steps:
+  - intent: def.trade_how_to
+  - action: utter_def.trade_how_to
+- story: def - Trade online intro
+  steps:
+  - intent: def.trade_online
+  - action: utter_def.trade_online
+- story: 'def - Trade: How to trade online'
+  steps:
+  - intent: def.trade_online_how_to
+  - action: utter_def.trade_online_how_to
+- story: 'def - Trade: How to trade offline'
+  steps:
+  - intent: def.trade_offline_how_to
+  - action: utter_def.trade_offline_how_to
+- story: 'def - Trade: How to trade using phonecall'
+  steps:
+  - intent: def.trade_phonecall_how_to
+  - action: utter_def.trade_phonecall_how_to
+- story: 'def - Account: Safety of money'
+  steps:
+  - intent: def.account_money_safety
+  - action: utter_def.account_money_safety
+- story: def - Account money interest
+  steps:
+  - intent: def.account_money_interest
+  - action: utter_def.account_money_interest
+- story: def - Trade fee
+  steps:
+  - intent: def.trade_fee
+  - action: utter_def.trade_fee
+- story: 'def - Trade: Buy/sell the same stock'
+  steps:
+  - intent: def.trade_same_stock
+  - action: utter_def.trade_same_stock
+- story: 'def - Trade: Sell zero stock'
+  steps:
+  - intent: def.trade_sell_zero
+  - action: utter_def.trade_sell_zero
+- story: 'def - Trade: Sell time'
+  steps:
+  - intent: def.trade_sell_time
+  - action: utter_def.trade_sell_time
+- story: 'def - Stock: Rights of stock owner'
+  steps:
+  - intent: def.stock_rights
+  - action: utter_def.stock_rights
+- story: 'def - Stock: Using rights stock owner'
+  steps:
+  - intent: def.stock_rights_exercise
+  - action: utter_def.stock_rights_exercise
+- story: 'def - Stock: Receive dividends'
+  steps:
+  - intent: def.stock_dividends_receive
+  - action: utter_def.stock_dividends_receive
+- story: 'def - Account: Open multiple account'
+  steps:
+  - intent: def.account_open_multiple
+  - action: utter_def.account_open_multiple
+- story: 'def - Account: Deposit'
+  steps:
+  - intent: def.account_deposit
+  - action: utter_def.account_deposit
+- story: 'def - Account: Withdraw'
+  steps:
+  - intent: def.account_withdraw
+  - action: utter_def.account_withdraw
+- story: 'def - Trade: Margin'
+  steps:
+  - intent: def.trade_margin
+  - action: utter_def.trade_margin
+- story: 'def - Trade: Margin interest'
+  steps:
+  - intent: def.trade_margin_interest
+  - action: utter_def.trade_margin_interest
+- story: 'def - Trade: Margin ratio'
+  steps:
+  - intent: def.trade_margin_ratio
+  - action: utter_def.trade_margin_ratio
+- story: 'def - Trade: Margin call'
+  steps:
+  - intent: def.trade_margin_call
+  - action: utter_def.trade_margin_call
+- story: 'def - Account: Open account overseas'
+  steps:
+  - intent: def.account_open_overseas
+  - action: utter_def.account_open_overseas
+- story: 'def - Trade: Foreign trade'
+  steps:
+  - intent: def.trade_foreign
+  - action: utter_def.trade_foreign
+- story: 'def - Stock: What is upcom'
+  steps:
+  - intent: def.stock_exchange_upcom
+  - action: utter_def.stock_exchange_upcom
+- story: def - Trade hours
+  steps:
+  - intent: def.trade_hours
+  - action: utter_def.trade_hours
+- story: def - Trade amount in HSX
+  steps:
+  - intent: def.trade_amount_hsx
+  - action: utter_def.trade_amount_hsx
+- story: 'def - Misc: What is VSD'
+  steps:
+  - intent: def.misc_vsd
+  - action: utter_def.misc_vsd
+- story: def - Trade amount in HNX
+  steps:
+  - intent: def.trade_amount_hnx
+  - action: utter_def.trade_amount_hnx
+- story: def - Trade amount in upcom
+  steps:
+  - intent: def.trade_amount_upcom
+  - action: utter_def.trade_amount_upcom
+- story: 'def - Misc: What is finance'
+  steps:
+  - intent: def.misc_finance
+  - action: utter_def.misc_finance
+- story: 'def - Misc: About Viet Tin'
+  steps:
+  - intent: def.misc_viettin
+  - action: utter_def.misc_viettin
+- story: 'def - Misc: Can win?'
+  steps:
+  - intent: def.misc_rich
+  - action: utter_def.misc_rich
+- story: 'def - Stock: Dividends'
+  steps:
+  - intent: def.stock_dividends
+  - action: utter_def.stock_dividends
+- story: 'def - Trade: What is an order'
+  steps:
+  - intent: def.trade_order
+  - action: utter_def.trade_order
+- story: 'def - Misc: Can lose?'
+  steps:
+  - intent: def.misc_lost
+  - action: utter_def.misc_lost
+- story: 'def - Stock: Transfer stock'
+  steps:
+  - intent: def.stock_transfer
+  - action: utter_def.stock_transfer
+- story: 'def - Stock: ETF'
+  steps:
+  - intent: def.stock_etf
+  - action: utter_def.stock_etf
+- story: 'def - Stock: Derivative'
+  steps:
+  - intent: def.stock_derivatives
+  - action: utter_def.stock_derivatives
+- story: 'def - Trade: Can advise?'
+  steps:
+  - intent: def.trade_advise
+  - action: utter_def.trade_advise
+- story: 'def - Stock: Basic and derivative difference'
+  steps:
+  - intent: def.stock_base_deri_difference
+  - action: utter_def.stock_base_deri_difference
+- story: 'def - Trade: Future contract'
+  steps:
+  - intent: def.trade_futures_contract
+  - action: utter_def.trade_futures_contract
+- story: 'def - Trade: Forward contract'
+  steps:
+  - intent: def.trade_forward_contract
+  - action: utter_def.trade_forward_contract
+- story: 'def - Account: Requirement of Companies for derivative'
+  steps:
+  - intent: def.account_open_derivatives_co
+  - action: utter_def.account_open_derivatives_co
+- story: def - Stock types
+  steps:
+  - intent: def.stock_types
+  - action: utter_def.stock_types
+- story: 'def - Stock: Preferred stock'
+  steps:
+  - intent: def.stock_preferred
+  - action: utter_def.stock_preferred
+- story: def - Stock market
+  steps:
+  - intent: def.stock_market
+  - action: utter_def.stock_market
+- story: 'def - Stock: Profit'
+  steps:
+  - intent: def.stock_profit
+  - action: utter_def.stock_profit
+- story: 'def - Account: Where to open account'
+  steps:
+  - intent: def.account_open_where
+  - action: utter_def.account_open_where
+- story: 'def - Account: How to deposit/withdraw money'
+  steps:
+  - intent: def.account_money_transfer
+  - action: utter_def.account_money_transfer
+- story: 'def - Account: Foreign account requirement'
+  steps:
+  - intent: def.account_foreign_requirement
+  - action: utter_def.account_foreign_requirement
+- story: 'def - Trade: What is a broker'
+  steps:
+  - intent: def.trade_broker
+  - action: utter_def.trade_broker
+- story: 'def - Trade: Need broker?'
+  steps:
+  - intent: def.trade_broker_need
+  - action: utter_def.trade_broker_need
+- story: def - Trade methods
+  steps:
+  - intent: def.trade_method
+  - action: utter_def.trade_method
+- story: 'def - Account: OCT'
+  steps:
+  - intent: def.account_oct
+  - action: utter_def.account_oct
+- story: upd - Stock price master
+  steps:
+  - or:
+    - intent: upd.stock_ref
+    - intent: upd.stock_ceiling
+    - intent: upd.stock_floor
+    - intent: upd.stock_totalVolTraded
+    - intent: upd.stock_totalValTraded
+    - intent: upd.stock_high
+    - intent: upd.stock_low
+    - intent: upd.stock_average
+    - intent: upd.stock_foreignBuy
+    - intent: upd.stock_foreignSell
+    - intent: upd.stock_exchange
+    - intent: upd.stock_stockType
+    - intent: upd.stock_totalBidVol
+    - intent: upd.stock_totalAskVol
+    - intent: upd.stock_open
+    - intent: upd.stock_ptMatched
+    - intent: upd.stock_ptMatchedVol
+    - intent: upd.stock_ptVolume
+    - intent: upd.stock_ptValue
+    - intent: upd.stock_currentRoom
+    - intent: upd.stock_lastMatched
+  - action: action_stock_price
+- story: upd - portfolio
+  steps:
+  - intent: upd.portfolio_view
+  - action: action_trading_portfolio
+- story: chat - bot identity
+  steps:
+  - intent: chat.bot_identity
+  - action: utter_chat.bot_identity
+- story: chat - user Joke
+  steps:
+  - intent: chat.user_joke
+  - action: utter_chat.user_joke
+- story: chat - user Not want talk
+  steps:
+  - intent: chat.user_not_want_talk
+  - action: utter_chat.user_not_want_talk
+- story: Goodbye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+- story: chat - bot criticize
+  steps:
+  - intent: chat.bot_criticize
+  - action: utter_chat.bot_criticize
+- story: chat - bot annoying
+  steps:
+  - intent: chat.bot_annoying
+  - action: utter_chat.bot_annoying
+- story: chat - bot gender
+  steps:
+  - intent: chat.bot_gender
+  - action: utter_chat.bot_gender
+- story: chat - bot ability
+  steps:
+  - intent: chat.bot_ability
+  - action: utter_chat.bot_ability
+- story: chat - user wait
+  steps:
+  - intent: chat.user_wait
+  - action: utter_chat.user_wait
+- story: chat - bot Learn more
+  steps:
+  - intent: chat.bot_learn_more
+  - action: utter_chat.bot_learn_more
+- story: chat - user tired
+  steps:
+  - intent: chat.user_tired
+  - action: utter_chat.user_tired
+- story: chat- user test
+  steps:
+  - intent: chat.user_test
+  - action: utter_chat.user_test
+- story: chat - user see you again
+  steps:
+  - intent: chat.user_cu_again
+  - action: utter_chat.user_cu_again
+- story: chat - bot flirt
+  steps:
+  - intent: chat.bot_flirt
+  - action: utter_chat.bot_flirt
+- story: chat- user brb
+  steps:
+  - intent: chat.user_brb
+  - action: utter_chat.user_brb
+- story: chat - user sleepy
+  steps:
+  - intent: chat.user_sleepy
+  - action: utter_chat.user_sleepy
+- story: chat - bot birthday
+  steps:
+  - intent: chat.bot_birthday
+  - action: utter_chat.bot_birthday
+- story: chat - bot boring
+  steps:
+  - intent: chat.bot_boring
+  - action: utter_chat.bot_boring
+- story: chat - user sad
+  steps:
+  - intent: chat.user_sad
+  - action: utter_chat.user_sad
+- story: chat - user need advice
+  steps:
+  - intent: chat.user_need_advice
+  - action: utter_chat.user_need_advice
+- story: chat - bot boss
+  steps:
+  - intent: chat.bot_boss
+  - action: utter_chat.bot_boss
+- story: chat - bot busy
+  steps:
+  - intent: chat.bot_busy
+  - action: utter_chat.bot_busy
+- story: chat - user miss
+  steps:
+  - intent: chat.user_miss
+  - action: utter_chat.user_miss
+- story: chat - user love deep
+  steps:
+  - intent: chat.user_love_deep
+  - action: utter_chat.user_love_deep
+- story: chat - bot praise
+  steps:
+  - intent: chat.bot_praise
+  - action: utter_chat.bot_praise
+- story: chat - user need praise
+  steps:
+  - intent: chat.user_need_praise
+  - action: utter_chat.user_need_praise
+- story: chat - bot mad
+  steps:
+  - intent: chat.bot_mad
+  - action: utter_chat.bot_mad
+- story: chat - bot fired
+  steps:
+  - intent: chat.bot_fired
+  - action: utter_chat.bot_fired
+- story: chat - user lonely
+  steps:
+  - intent: chat.user_lonely
+  - action: utter_chat.user_lonely
+- story: chat - user love
+  steps:
+  - intent: chat.user_love
+  - action: utter_chat.user_love
+- story: chat - bot funny
+  steps:
+  - intent: chat.bot_funny
+  - action: utter_chat.bot_funny
+- story: chat - user here
+  steps:
+  - intent: chat.user_here
+  - action: utter_chat.user_here
+- story: chat - user birthday
+  steps:
+  - intent: chat.user_birthday
+  - action: utter_chat.user_birthday
+- story: chat - user happy
+  steps:
+  - intent: chat.user_happy
+  - action: utter_chat.user_happy
+- story: chat - user good
+  steps:
+  - intent: chat.user_good
+  - action: utter_chat.user_good
+- story: chat - user go bed
+  steps:
+  - intent: chat.user_go_bed
+  - action: utter_chat.user_go_bed
+- story: chat - bot hobby
+  steps:
+  - intent: chat.bot_hobby
+  - action: utter_chat.bot_hobby
+- story: chat - user excited
+  steps:
+  - intent: chat.user_excited
+  - action: utter_chat.user_excited
+- story: chat - bot cheer
+  steps:
+  - intent: chat.bot_cheer
+  - action: utter_chat.bot_cheer
+- story: chat - bot happy
+  steps:
+  - intent: chat.bot_happy
+  - action: utter_chat.bot_happy
+- story: chat - user cant sleep
+  steps:
+  - intent: chat.user_cant_sleep
+  - action: utter_chat.user_cant_sleep
+- story: chat - user busy
+  steps:
+  - intent: chat.user_busy
+  - action: utter_chat.user_busy
+- story: chat - user bored
+  steps:
+  - intent: chat.user_bored
+  - action: utter_chat.user_bored
+- story: chat - user come back
+  steps:
+  - intent: chat.user_come_back
+  - action: utter_chat.user_come_back
+- story: chat - bot whats up
+  steps:
+  - intent: chat.bot_whats_up
+  - action: utter_chat.bot_whats_up
+- story: chat - bot hungry
+  steps:
+  - intent: chat.bot_hungry
+  - action: utter_chat.bot_hungry
+- story: chat - user nice to meet_you
+  steps:
+  - intent: chat.user_nice_to_meet_you
+  - action: utter_chat.user_nice_to_meet_you
+- story: chat - bot how are you
+  steps:
+  - intent: chat.bot_how_are_you
+  - action: utter_chat.bot_how_are_you
+- story: chat - user marry me
+  steps:
+  - intent: chat.user_marry_me
+  - action: utter_chat.user_marry_me
+- story: chat - user good night
+  steps:
+  - intent: chat.user_good_night
+  - action: utter_chat.user_good_night
+- story: chat - user want talk
+  steps:
+  - intent: chat.user_want_talk
+  - action: utter_chat.user_want_talk
+- story: chat - user wow
+  steps:
+  - intent: chat.user_wow
+  - action: utter_chat.user_wow
+- story: chat - user haha
+  steps:
+  - intent: chat.user_haha
+  - action: utter_chat.user_haha
+- story: chat - bot there
+  steps:
+  - intent: chat.bot_there
+  - action: utter_chat.bot_there
+- story: chat - bot wrong
+  steps:
+  - intent: chat.bot_wrong
+  - action: utter_chat.bot_wrong
+- story: chat - bot confirm
+  steps:
+  - intent: chat.bot_confirm
+  - action: utter_chat.bot_confirm
+- story: chat - user sorry
+  steps:
+  - intent: chat.user_sorry
+  - action: utter_chat.user_sorry
+- story: chat - user care not
+  steps:
+  - intent: chat.user_care_not
+  - action: utter_chat.user_care_not
+- story: chat - user hug
+  steps:
+  - intent: chat.user_hug
+  - action: utter_chat.user_hug
+- story: chat - user hold on
+  steps:
+  - intent: chat.user_hold_on
+  - action: utter_chat.user_hold_on
+- story: chat - bot live where
+  steps:
+  - intent: chat.bot_live_where
+  - action: utter_chat.bot_live_where
+- story: chat - user thank you
+  steps:
+  - intent: chat.user_thank_you
+  - action: utter_chat.user_thank_you
+- story: chat - bot real
+  steps:
+  - intent: chat.bot_real
+  - action: utter_chat.bot_real
+- story: chat - bot job
+  steps:
+  - intent: chat.bot_job
+  - action: utter_chat.bot_job
+- story: chat - bot ready
+  steps:
+  - intent: chat.bot_ready
+  - action: utter_chat.bot_ready
+- story: chat - bot origin
+  steps:
+  - intent: chat.bot_origin
+  - action: utter_chat.bot_origin
+- story: chat - user no problem
+  steps:
+  - intent: chat.user_no_problem
+  - action: utter_chat.user_no_problem
+- story: chat - bot why name Mai
+  steps:
+  - intent: chat.bot_why_name_mai
+  - action: utter_chat.bot_why_name_mai
+- story: chat - user bad language
+  steps:
+  - intent: chat.user_bad_language
+  - action: utter_chat.user_bad_language
+- story: chat - bot age
+  steps:
+  - intent: chat.bot_age
+  - action: utter_chat.bot_age
+- story: 'def - Stock: Index Fund'
+  steps:
+  - intent: def.stock_index_fund
+  - action: utter_def.stock_index_fund
+- story: 'def - Stock: what is hose'
+  steps:
+  - intent: def.stock_exchange_hose
+  - action: utter_def.stock_exchange_hose
+- story: upd - Get Stock Collection (VN30, top gain, loss...)
+  steps:
+  - or:
+    - intent: upd.stock_VN30
+    - intent: upd.stock_TOP_GAINERS
+    - intent: upd.stock_TOP_LOSERS
+    - intent: upd.stock_TOP_CHANGE
+    - intent: upd.stock_TOP_TRADING
+    - intent: upd.stock_TOP_FOREIG
+    - intent: upd.stock_TOP_FOREIGN_BUY
+    - intent: upd.stock_TOP_FOREIGN_SELL
+  - action: action_get_stock_collection
+- story: upd - Watch list
+  steps:
+  - intent: upd.stock_watch
+  - action: action_get_watchlist
+- story: 'def - Stock: How to read price'
+  steps:
+  - intent: def.stock_price
+  - action: utter_def.stock_price
+- story: Greet
+  steps:
+  - intent: greet
+  - action: action_greet
+- story: Def - Stock in HNX
+  steps:
+  - intent: def.stock_in_hnx
+  - action: utter_def.stock_in_hnx
+- story: Def - Stock in UPCOM
+  steps:
+  - intent: def.stock_in_upcom
+  - action: utter_def.stock_in_upcom
+- story: Def - Stock in HOSE
+  steps:
+  - intent: def.stock_in_hsx
+  - action: utter_def.stock_in_hsx
+- story: Def - vn30
+  steps:
+  - intent: def.stock_vn30
+  - action: utter_def.stock_vn30
+- story: upd - View order history
+  steps:
+  - intent: upd.order_history
+  - action: action_order_history
+- story: chat - Get useless fact (translated)
+  steps:
+  - intent: chat.bot_useless_fact
+  - action: action_useless_fact
+- story: upd - Time
+  steps:
+  - intent: upd.time
+  - action: action_time
+- story: upd - Get weather
+  steps:
+  - intent: upd.weather
+  - action: weather_form
+  - active_loop: weather_form
+  - active_loop: null
+  - action: action_get_weather
+  - action: action_slot_reset_date
+- story: chat - User want human
+  steps:
+  - intent: chat.user_want_human
+  - action: action_handover
+- story: def - Misc eKYC
+  steps:
+  - intent: def.misc_ekyc
+  - action: utter_def.misc_ekyc
+- story: 'def - Misc: Contact'
+  steps:
+  - intent: def.misc_contact
+  - action: utter_def.misc_contact
+- story: upd - Handover to eng bot
+  steps:
+  - intent: upd.handover_en
+  - action: action_handover
+- story: upd - Handover to vn bot
+  steps:
+  - intent: upd.handover_vi
+  - action: utter_chat.bot_is_vn
+- story: chat - Bot language
+  steps:
+  - intent: chat.bot_language
+  - action: utter_chat.bot_language
+- story: upd - Place
+  steps:
+  - intent: upd.place
+  - action: action_place
+- story: upd - Cryptocurrency price
+  steps:
+  - intent: upd.crypto
+  - action: action_crypto
+- story: 'def - Stock: Investment funds'
+  steps:
+  - intent: def.stock_investment_fund
+  - action: utter_def.stock_investment_fund
+- story: 'def - Stock: NAV'
+  steps:
+  - intent: def.stock_nav
+  - action: utter_def.stock_nav
+- story: 'chat - User: Need human support'
+  steps:
+  - intent: chat.user_need_support
+  - action: utter_chat.user_need_support
+- story: def - Stock vs ETF
+  steps:
+  - intent: def.stock_etf_vs_stock
+  - action: utter_def.stock_etf_vs_stock
