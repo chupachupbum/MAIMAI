@@ -3734,12 +3734,6 @@ nlu:
     - á châu banh
     - a cê bê
     - ây ci bi
-- synonym: HBC
-  examples: |
-    - hbc
-    - Công ty cổ phần Tập đoàn Xây dựng Hòa Bình
-    - xây dựng Hòa Bình
-    - hát bê xê
 - synonym: CTG
   examples: |
     - vietinbank
@@ -3749,6 +3743,12 @@ nlu:
     - Ngân hàng Việt tín
     - Vietinbank
     - ngân hàng Việt tín
+- synonym: HBC
+  examples: |
+    - hbc
+    - Công ty cổ phần Tập đoàn Xây dựng Hòa Bình
+    - xây dựng Hòa Bình
+    - hát bê xê
 - synonym: ROS
   examples: |
     - ros
