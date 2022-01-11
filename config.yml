@@ -28,7 +28,7 @@ policies:
   max_history: 3
   epochs: 50
   model_confidence: softmax
-  constrain_similarities: Trueeueur
+  constrain_similarities: true
 - name: RulePolicy
   core_fallback_threshold: 0.7
   core_fallback_action_name: utter_fallback
