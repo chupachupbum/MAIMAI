@@ -204,7 +204,7 @@ intents:
 - def.misc_alert_setup
 - upd.indexes
 - def.stock_eps
-- def.stock_p/e
+- def.stock_PE
 - def.stock_option_contract
 - def.stock_warrant
 entities:
@@ -4736,13 +4736,13 @@ responses:
           EPS còn được sử dụng như một cách đánh giá khả năng sinh ra lợi nhuận của một dự án, một công ty. Thông thường, các công ty sẽ sử dụng EPS như một thước đo để phân chia khoản lãi cho các cổ phiếu đang được lưu thông trên thị trường.
       text: EPS là cụm từ viết tắt của Earning Per Share. Đây là khoản lợi nhuận sau thuế mà các nhà đầu tư thu được từ 1 cổ phiếu. Chỉ số này còn được hiểu như một khoản lời mà các nhà đầu tư có được trên một lượng vốn bỏ ra ban đầu.
         EPS còn được sử dụng như một cách đánh giá khả năng sinh ra lợi nhuận của một dự án, một công ty. Thông thường, các công ty sẽ sử dụng EPS như một thước đo để phân chia khoản lãi cho các cổ phiếu đang được lưu thông trên thị trường.
-  utter_def.stock_p/e:
+  utter_def.stock_PE:
   - channel: facebook
     text: Chỉ số P/E (Price to Earning ratio) là chỉ số đánh giá mối quan hệ giữa giá thị trường của cổ phiếu (Price) với thu nhập trên một cổ phiếu (EPS).
       Ý nghĩa của chỉ số này thể hiện mức giá mà bạn sẵn sàng bỏ ra cho một đồng lợi nhuận thu được từ cổ phiếu. Hay, bạn sẵn sàng trả giá bao nhiêu cho cổ phiếu của một doanh nghiệp dựa trên lợi nhuận (thu nhập) của doanh nghiệp đó.
   - custom:
       component_id: Text
-      intent: def.stock_p/e
+      intent: def.stock_PE
       parameters:
         action: 1
       t2s:
