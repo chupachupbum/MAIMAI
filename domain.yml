@@ -4030,7 +4030,7 @@ responses:
     text: MAI rất tiếc không thể đưa ra lời khuyên cho bạn được, MAI không được phép
       làm điều này. Tuy vậy, MAI đang phát triển chức năng tư vấn đầu tư, cập nhật
       báo cáo tình hình của các mã cổ phiếu, nhằm giúp các nhà đầu tư có thêm thông
-      tin. MAI sẽ thông báo khi có cập nhajat mới nhất!
+      tin. MAI sẽ thông báo khi có cập nhật mới nhất!
   - custom:
       component_id: Text
       intent: def.trade_advise
@@ -4039,13 +4039,13 @@ responses:
       - idx: 0
         type: fix
         value: MAI rất tiếc không thể đưa ra lời khuyên cho bạn được, MAI không được phép
-      	    làm điều này. Tuy vậy, MAI đang phát triển chức năng tư vấn đầu tư, cập nhật
-            báo cáo tình hình của các mã cổ phiếu, nhằm giúp các nhà đầu tư có thêm thông
-            tin. MAI sẽ thông báo khi có cập nhajat mới nhất!
+          làm điều này. Tuy vậy, MAI đang phát triển chức năng tư vấn đầu tư, cập nhật
+          báo cáo tình hình của các mã cổ phiếu, nhằm giúp các nhà đầu tư có thêm thông
+          tin. MAI sẽ thông báo khi có cập nhật mới nhất!
       text: MAI rất tiếc không thể đưa ra lời khuyên cho bạn được, MAI không được phép
-	  làm điều này. Tuy vậy, MAI đang phát triển chức năng tư vấn đầu tư, cập nhật
-	  báo cáo tình hình của các mã cổ phiếu, nhằm giúp các nhà đầu tư có thêm thông
-	  tin. MAI sẽ thông báo khi có cập nhajat mới nhất!
+        làm điều này. Tuy vậy, MAI đang phát triển chức năng tư vấn đầu tư, cập nhật
+        báo cáo tình hình của các mã cổ phiếu, nhằm giúp các nhà đầu tư có thêm thông
+        tin. MAI sẽ thông báo khi có cập nhật mới nhất!
   utter_def.stock_base_deri_difference:
   - channel: facebook
     text: "Sự khác nhau cơ bản giữa thị trường chứng khoán phái sinh (CKPS) và thị\
